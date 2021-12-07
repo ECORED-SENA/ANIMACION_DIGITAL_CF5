@@ -47,6 +47,10 @@
   background: lighten($color-acento-botones, 50%)
   background: linear-gradient(0deg, white 50%, lighten($color-acento-botones, 45%) 100%)
 
+.acordion .tarjeta--azul
+  background: lighten($color-acento-botones, 50%)
+  background: linear-gradient(0deg, white 0%, lighten($color-acento-botones, 45%) 100%)
+
 .LnrGrad02
   background: rgb(248,226,226)
   background: linear-gradient(90deg, rgba(248,226,226,1) 0%, rgba(255,255,255,1) 100%)
@@ -59,3 +63,92 @@
 
 .separador
   opacity: 0.3
+
+.bgImg01
+  background-image: url("../assets/curso/tema1/05.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
+
+.bgImg02
+  background-image: url("../assets/curso/tema2/02.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
+
+.EditBtn1
+  background-color: transparent !important
+  padding: 0
+  transition: 0.3s
+  width: 100% !important
+
+  &:hover
+    margin-top: -6px
+
+.brBTN
+  margin-top: 10px
+  height: 7px
+  background-color: $color-secundario
+
+.EditBtn2
+  padding: 0
+  background-color: #E8E8E8
+  width: 60px
+  height: 60px
+  padding: 11px
+  border-radius: 60px
+  font-size: 1.5em
+  font-weight: bold
+  font-family: Tahoma  
+  transition: 0.3s
+
+  &:hover, &:active
+    background-color: $color-acento-botones
+
+  @media screen and (max-width: 1199px)
+    width: 55px
+    height: 55px
+    padding: 11px
+    font-size: 1.2em
+
+  @media screen and (max-width: 991px)
+    width: 50px
+    height: 50px
+    padding: 10px
+    font-size: 1.2em
+
+  @media screen and (max-width: 767px)
+    width: 40px
+    height: 40px
+    padding: 7px
+    font-size: 1em
+
+.minH01
+  min-height: 116px
+
+.Hesp01
+  width: 14.3%
+
+  @media screen and (max-width: 1399px)
+    width: 14.6%
+
+  @media screen and (max-width: 991px)
+    width: 14.5%
+
+.Bef01
+  &:before
+    content: ""
+    display: block
+    background-color: lighten($color-acento-botones, 45%)
+    border-radius: 20px 20px 0 0
+    position: absolute
+    top: 50%
+    left: 0
+    right: 0
+    bottom: 0
+
+.zIndx01
+  z-index: 1
+
+.TxtClr01
+  color: $color-primario

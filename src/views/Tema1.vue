@@ -68,14 +68,91 @@
     #t1_2.titulo-segundo.color-secundario
       h2 1.2 Sistema de controles
     
-    p.mb-4 De forma nativa en After Effects podemos encontrar dos herramientas o sistemas que enlace que nos facilitan de forma práctica, rápida e intuitiva el enlace, parentazgo o rigging de personajes 2D. También existen extensiones de terceros al programa, unos libres y otros de pago en caso de requerir herramientas más complejas y de altos estándares competitivos en el mercado. Sin embargo, siempre lo más importante es la habilidad del animador para usarlas, sin importar si son pagas o nativas. Estas son:
+    p.mb-5 De forma nativa en After Effects podemos encontrar dos herramientas o sistemas que enlace que nos facilitan de forma práctica, rápida e intuitiva el enlace, parentazgo o rigging de personajes 2D. También existen extensiones de terceros al programa, unos libres y otros de pago en caso de requerir herramientas más complejas y de altos estándares competitivos en el mercado. Sin embargo, siempre lo más importante es la habilidad del animador para usarlas, sin importar si son pagas o nativas. Estas son:
 
+    #MapaGroup01.row.mb-5(data-aos="fade")
+      .row.justify-content-center
+        .col-lg-6
+          .row.justify-content-center.bgImg01.mb-5
+            .col-4
+              button.EditBtn1(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+                figure
+                  img(src='@/assets/curso/tema1/06.svg', alt='Nativas')
+              .multi-collapse1.brBTN.collapse.show(data-bs-parent='#MapaGroup01')
+            .col-4.position-relative
+              .indicador--hover(v-if="indicadorTarjetaFlip")
+              button.EditBtn1(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2' @mouseover="indicadorTarjetaFlip = false")
+                figure
+                  img(src='@/assets/curso/tema1/07.svg', alt='Externas')
+              .multi-collapse2.brBTN.collapse(data-bs-parent='#MapaGroup01')
+      
+      .multi-collapse1.row.justify-content-center.collapse.show(data-bs-parent='#MapaGroup01')
+        .col-md-8 
+          p.text-center Son las herramientas que se encuentran internamente en After Effects y se detallan a continuación:
+        .col-md-10
+          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+            .row.justify-content-center(titulo="<em>Puppet Pin</em> (marioneta)")
+              .col-lg-11
+                p.mb-4 La herramienta “marioneta” es muy fácil de usar e intuitiva para hacer animaciones rápidas y de personajes sencillos. No solamente antropomorfos, sino también para sistemas pendulantes o pivotantes. Funciona haciendo clic con puntos de pivote en la imagen los que generan una tensión al área más cercana de la imagen a modo de controladores para moverlo de forma elástica.  Por ejemplo, si tiene una flor simple que necesita soplar con el viento o un hombre de tubo inflable que agita un brazo, esta herramienta podría funcionar.
+                figure
+                  img(src='@/assets/curso/tema1/08.svg', alt='Puppet Pin (marioneta)')
+            
+            .row.justify-content-center(titulo="<em>Whip</em> (látigo)")
+              .col-lg-11
+                p.mb-4 También llamada “colita de marrano” o “espiral”, no es una herramienta de animación por sí sola, pero es indispensable para enlazar o emparentar elementos (ubicados en capas), generando de esta forma sistemas dependientes entre sí, como por ejemplo, la unión entre brazo/antebrazo/mano.
+                figure
+                  img(src='@/assets/curso/tema1/09.svg', alt='Whip (látigo)')
+            
+            .row.justify-content-center(titulo="<em>Null object</em> (objeto nulo)")
+              .col-lg-11
+                p.mb-4 Este elemento que se ubica como una capa en la composición es literalmente un controlador, con el cual, emparentando por medio del whip podemos controlar, principalmente los parámetros de transformación de otras capas.
+                figure
+                  img(src='@/assets/curso/tema1/10.svg', alt='Null object (objeto nulo)')
+      
+      .multi-collapse2.row.justify-content-center.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-8 
+          p.text-center Las herramientas externas o extensiones (plugins) son programas de otras casas desarrolladoras de software distintas a Adobe y se detallan a continuación:
+        .col-md-10
+          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+            .row.justify-content-center(titulo="<em>Duik Bassel</em>")
+              .col-lg-11
+                p.mb-4 Es un plug-in gratis (se recomienda donaciones) que permite a los animadores manipular a sus personajes de forma práctica y rápida. Se ha convertido en el estándar líder en la industria de manipulación y animación de personajes.
+                .bg-white.p-4.mb-4
+                  p.mb-0 Algunas características que posee esta extensión son parámetros de instalación automática, controladores basados en iconos y enlaces para rigging que le permiten automatizar el comportamiento de sus “hijos”. Existe una biblioteca de tutoriales y documentos de soporte para utilizarlo de forma correcta.
+                .position-relative
+                  .indicador--hover(v-if="indicadorTarjetaFlip2")
+                  a(href='https://rainboxlab.org/tools/duik/' target="_blank" @mouseover="indicadorTarjetaFlip2 = false")
+                    figure
+                      img(src='@/assets/curso/tema1/11.png', alt='Rubberhose 2')
+            
+            .row.justify-content-center(titulo="<em>Rubberhose 2</em>")
+              .col-lg-11
+                p.mb-4 Siendo una extensión por pago (USD$45), esta es sin duda la manera más rápida de manipular un personaje en After Effects.  El complemento recibió su nombre de la antigua técnica de la década de 1920, en la que los personajes parecían tener mangueras de goma para brazos y piernas. Este estilo puede hacer que tus personajes parezcan más amigables y extravagantes, pero lo que es más importante, hace que el montaje sea muy fácil.
+                a(href='https://www.battleaxe.co/rubberhose' target="_blank")
+                  figure
+                    img(src='@/assets/curso/tema1/12.png', alt='Rubberhose 2')
+            
+            .row.justify-content-center(titulo="<em>Joystick’n Sliders</em>")
+              .col-lg-11
+                p.mb-4 Es una herramienta paga (USD$39) muy interesante para After Effects que se enorgullece de ser una herramienta de montaje “basada en poses”. Si bien ciertamente puedes manipular rápidamente a un personaje usando Joysticks’n Sliders en After Effects, hemos encontrado que Joysticks’n Sliders son más útiles en casos de uso que no son de personajes. Por ejemplo, puede usar la herramienta para todo, desde gráficos de aparejos hasta demostraciones de Interfaz de usuario.
+                a(href='https://aescripts.com/joysticks-n-sliders/' target="_blank")
+                  figure
+                    img(src='@/assets/curso/tema1/13.png', alt='Joystick’n Sliders')
+            
+            .row.justify-content-center(titulo="<em>PuppetTools 3</em>")
+              .col-lg-11
+                p.mb-4 Es otra herramienta de manipulación de personajes disponible en aescripts + aeplugins. Lo que quiere decir que funciona mayormente con código.  Incluye valiosas herramientas de manipulación de personajes como la cinemática inversa y los controladores.
+                a(href='https://aescripts.com/puppettools/' target="_blank")
+                  figure
+                    img(src='@/assets/curso/tema1/14.png', alt='Joystick’n Sliders')
+            
+            .row.justify-content-center(titulo="<em>Adobe Character Animator</em>")
+              .col-lg-11
+                p.mb-4 Es una interesante aplicación que permite a los usuarios utilizar videos y captura de pantalla en tiempo real para animar automáticamente los movimientos y posiciones de la boca y ojos.
+                a(href='https://www.adobe.com/la/products/character-animator.html' target="_blank")
+                  figure
+                    img(src='@/assets/curso/tema1/15.png', alt='Adobe Character Animator')
 
-
-
-
-
-  
 </template>
 
 <script>
@@ -84,6 +161,8 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    indicadorTarjetaFlip: true,
+    indicadorTarjetaFlip2: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -3,138 +3,70 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Práctica de <em>rigging</em> y animación
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+    .row.justify-content-center.mb-4
+      .col-md-8
+        figure.mb-4
+          img(src='@/assets/curso/tema2/01.jpg', alt='Práctica de rigging y animación')
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+        p En este numeral, se compilarán, a través de unos videos tutoriales de práctica, el resultado de la combinación de las herramientas nativas de After effects, sumado a otras herramientas y técnicas propias del programa para animar un personaje previamente despiezado y preparado:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    #MapaGroup01
+      .position-relative
+        .row.justify-content-center.Bef01
+          .col-lg-8.zIndx01
+            .row.bgImg02.justify-content-center.align-items-center.minH01
+              .col-2.Hesp01.d-flex.justify-content-center.align-items-center
+                button.EditBtn2(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1') 01
+              .col-2.Hesp01.d-flex.justify-content-center.align-items-center.position-relative(@mouseover="indicadorTarjetaFlip = false")
+                .indicador--hover(v-if="indicadorTarjetaFlip")
+                button.EditBtn2(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2') 02
+              .col-2.Hesp01.d-flex.justify-content-center.align-items-center
+                button.EditBtn2(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3') 03
+              .col-2.Hesp01.d-flex.justify-content-center.align-items-center
+                button.EditBtn2(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4') 04
+              .col-2.Hesp01.d-flex.justify-content-center.align-items-center
+                button.EditBtn2(data-bs-toggle='collapse' data-bs-target='.multi-collapse5' aria-expanded='true' aria-controls='.multi-collapse5') 05
+      
+      .row.justify-content-center.LnrGrad01.m-0
+        .multi-collapse1.col-lg-10.collapse.show(data-bs-parent='#MapaGroup01')
+          h4.text-center.mt-5.TxtClr01 Importación a After Effects
+          .bg-white.BRcardTOP.my-4
+            p.p-4.mb-0 En este video se validará cómo se importan todos los elementos que preparamos previamente, como los props, personajes y fondos. Además, se verá cómo mover las piezas de los personajes, para reubicarlas y crear una pose, de esta forma ir familiarizándonos con el programa:
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+        .multi-collapse2.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
+          h4.text-center.mt-5.TxtClr01 Reubicar pivotes
+          .bg-white.BRcardTOP.my-4
+            p.p-4.mb-0 Enseguida se verá cómo ajustar y reubicar los pivotes de cada una de las piezas del personaje para generar los ejes correctos y que las piezas se mueven desde la posición adecuada:
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+        .multi-collapse3.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
+          h4.text-center.mt-5.TxtClr01 Emparentar
+          .bg-white.BRcardTOP.my-4
+            p.p-4.mb-0 A continuación, se mirará cómo emparentar o ligar las partes del cuerpo a una pieza principal. Es decir, buscar una conexión entre las partes, como, por ejemplo, el brazo se conecta al torso, lo mismo que el cuello y las piernas:
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+        .multi-collapse4.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
+          h4.text-center.mt-5.TxtClr01 Rigging y Animación 
+          .bg-white.BRcardTOP.my-4
+            p.p-4.mb-0 En el siguiente video se verá cómo animar de una forma básica el personaje, realizando rotación y movimientos de las piezas ya enlazadas entre sí. También se observan algunas deformaciones que se pueden realizar gracias a la herramienta Puppet:
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+        .multi-collapse5.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
+          h4.text-center.mt-5.TxtClr01 Rendering
+          .bg-white.BRcardTOP.my-4
+            p.p-4.mb-0 Por último, se observará cómo exportar esa animación realizada en un formato de video para que pueda ser visualizado desde cualquier herramienta con reproducción multimedia:
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
@@ -143,6 +75,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

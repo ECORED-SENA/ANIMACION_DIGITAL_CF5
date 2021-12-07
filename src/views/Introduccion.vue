@@ -23,9 +23,6 @@
         figure
           img(src='@/assets/curso/intro/02.jpg', alt='Decoración')
 
-    
-    
-
 </template>
 
 <script>
