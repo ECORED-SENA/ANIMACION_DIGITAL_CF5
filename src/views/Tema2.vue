@@ -3,19 +3,19 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-down")
       .titulo-principal__numero
         span 2
       h1 Práctica de <em>rigging</em> y animación
     
     .row.justify-content-center.mb-4
       .col-md-8
-        figure.mb-4
+        figure.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema2/01.jpg', alt='Práctica de rigging y animación')
     
-        p En este numeral, se compilarán, a través de unos videos tutoriales de práctica, el resultado de la combinación de las herramientas nativas de After effects, sumado a otras herramientas y técnicas propias del programa para animar un personaje previamente despiezado y preparado:
+        p(data-aos="fade") En este numeral, se compilarán, a través de unos videos tutoriales de práctica, el resultado de la combinación de las herramientas nativas de After effects, sumado a otras herramientas y técnicas propias del programa para animar un personaje previamente despiezado y preparado:
 
-    #MapaGroup01
+    #MapaGroup01(data-aos="fade")
       .position-relative
         .row.justify-content-center.Bef01
           .col-lg-8.zIndx01
@@ -57,7 +57,7 @@
         .multi-collapse4.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
           h4.text-center.mt-5.TxtClr01 Rigging y Animación 
           .bg-white.BRcardTOP.my-4
-            p.p-4.mb-0 En el siguiente video se verá cómo animar de una forma básica el personaje, realizando rotación y movimientos de las piezas ya enlazadas entre sí. También se observan algunas deformaciones que se pueden realizar gracias a la herramienta Puppet:
+            p.p-4.mb-0 En el siguiente video se verá cómo animar de una forma básica el personaje, realizando rotación y movimientos de las piezas ya enlazadas entre sí. También se observan algunas deformaciones que se pueden realizar gracias a la herramienta #[em Puppet]:
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         

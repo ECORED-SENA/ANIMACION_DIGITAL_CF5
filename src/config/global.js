@@ -64,11 +64,6 @@ export default {
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
-      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -103,140 +98,102 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Adobe. (2021). After Effects',
+      link: 'https://www.adobe.com/la/products/aftereffects.html',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Behance. (2021). 20+ Best Animated Logos for Your Inspiration. Behance.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.behance.net/gallery/68306231/20-Best-Animated-Logos-for-Your-Inspiration',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Cortés, J. (2020). ¿Qué es la animación? Tipos y técnicas. Notodoanimacion.',
+      link: 'https://bit.ly/3gGd7Wh',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Osipa, J. (2010). Stop Staring, Facial Modeling and Animation Done Right. Wiley Publishing, Inc.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Animación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'técnica que da sensación de movimiento a imágenes, dibujos, figuras, recortes, objetos, personas, imágenes computarizadas, utilizando leves cambios de posición para que se genere la ilusión de un movimiento real.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Audiovisual',
+      significado: 'material conjunto de imágenes y sonidos grabados.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: '<em>Creative Commons</em>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'organización internacional estandarizada dedicada a promover el libre acceso y el intercambio de bienes culturales creativos comunes.',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'Digital',
+      significado: 'que suministra datos mediante dígitos binarios.',
     },
     {
-      termino: 'Moda',
+      termino: 'Gráfico',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'que pertenece y es relativo a la representación visual de la escritura y lo impreso.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Innovación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'acción de modificar las cosas ya existentes aplicando algo nuevo o creando elementos totalmente nuevos.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Logotipo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'símbolo formado por imágenes o letras que identifica a una empresa, institución, producto o marca.',
     },
     {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      termino: 'Multimedia',
+      significado: 'que difunde o está compuesto por distintos medios.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Página web',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'conjunto de información que se encuentra publicada en una determinada dirección de internet.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: '<em>Rigger</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'persona con conocimientos de <em>scripting, rigging, skinning</em> que desarrolla sistemas procedurales que facilitan una movilidad que sea lógica y correcta en la animación.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Técnica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de procedimientos, reglas y recursos que se usan en un arte, ciencia o labor determinada. Requiere práctica y habilidad.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Video <em>blocking</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'puesta en escena precisa de los actores en una actuación. En términos de cine, es donde colocas a tus actores y elementos importantes en el encuadre.',
+    },
+    {
+      termino: 'Visema',
+      significado:
+        'cualquiera de varios sonidos del habla que se ven iguales, por ejemplo, al leer los labios.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Cortés, J. (2020, 14 de octubre). ¿Qué es la animación? Tipos y técnicas. Notodoanimacion',
+      tipo: 'Página web',
+      link: 'https://bit.ly/3gGd7Wh',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Villanueva, J. (2020). ¡Video animado para tu negocio! Tutorial - After Effects. [Video]. YouTube.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link:
+        'https://www.youtube.com/watch?v=yB2paQihPVE&ab_channel=Jes%C3%BAsVillanueva%3A%3ATutorialesparaCreativos',
     },
   ],
   creditos: {
@@ -268,13 +225,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Julian Marquez Sanabria', 'Eulises Orduz Amezquita'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

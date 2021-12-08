@@ -3,34 +3,34 @@
   BannerInterno
   .container.BRcardTOP.bg-white.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-down")
       .titulo-principal__numero
         span 1
       h1 Fundamentación
 
     .row.justify-content-center
       .col-md-10
-        p El proceso de un buen rigging lleva tiempo y cuanto más tiempo se pase organizando y enlazando los elementos del sistema, más tiempo se habrá ganado a la hora de animar. Como resultado, muchas herramientas de animación de personajes cuentan con opciones de enlace automáticas que agilizan este proceso de enlace. Algunas de las herramientas requieren que configure el personaje y presione un solo botón para activar automáticamente un complejo proceso de manipulación. 
+        p(data-aos="fade") El proceso de un buen rigging lleva tiempo y cuanto más tiempo se pase organizando y enlazando los elementos del sistema, más tiempo se habrá ganado a la hora de animar. Como resultado, muchas herramientas de animación de personajes cuentan con opciones de enlace automáticas que agilizan este proceso de enlace. Algunas de las herramientas requieren que configure el personaje y presione un solo botón para activar automáticamente un complejo proceso de manipulación. 
       
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-right")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/01.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Y si bien el proceso en After Effects y en animación 2D es un poco más sencillo que en la animación 3D, también hay que tener en cuenta los principios básicos de animación y lógica que aplican a cualquier tipo de movimiento. A veces, se puede estar trabajando con un personaje simple que posee pocos puntos animados y otras puede ser mucho más complejo. Si planea trabajar en proyectos de mayor detalle y realismo, se debe asegurar que la herramienta de manipulación de personajes tenga alcances de automatización para que funcione en un flujo de trabajo más grande si es necesario.
   
-  .container.LnrGrad01.p-4.p-md-5
+  .container.LnrGrad01.p-4.p-md-5(data-aos="fade")
 
-    #t1_1.titulo-segundo.color-secundario
+    #t1_1.titulo-segundo.color-secundario(data-aos="fade-right")
       h2 1.1 Antes del #[em rigging]
     
-    p.mb-4 El rigging es una parte vital del flujo de trabajo de la animación. Sin rig no habría forma de animar a los personajes. Como “aparejador” o rigger, la labor es crear controles flexibles e intuitivos que puedan lograr cualquier animación que se les presente. En el caso de After Effects y sus herramientas nativas, solo es cuestión de conocer bien su manejo y saber dónde generar los anclajes y pivotes en el personaje.
+    p.mb-4(data-aos="fade") El #[em rigging] es una parte vital del flujo de trabajo de la animación. Sin #[em rig] no habría forma de animar a los personajes. Como “aparejador” o #[em rigger], la labor es crear controles flexibles e intuitivos que puedan lograr cualquier animación que se les presente. En el caso de After Effects y sus herramientas nativas, solo es cuestión de conocer bien su manejo y saber dónde generar los anclajes y pivotes en el personaje.
 
     .row.justify-content-center.mb-4
       .col-md-6.bg-white.BR01.Brd02.p-3
         p.text-center.mb-0 A continuación, se detallan algunos elementos primordiales: 
     
-    TabsA.color-acento-botones
+    TabsA.color-acento-botones(data-aos="fade-down")
       .tarjeta.LnrGrad02.p-4(titulo="Generar deformaciones limpias")
         .row.align-items-center
           .col-lg-6
@@ -65,10 +65,10 @@
     
     separador
 
-    #t1_2.titulo-segundo.color-secundario
+    #t1_2.titulo-segundo.color-secundario(data-aos="fade-right")
       h2 1.2 Sistema de controles
     
-    p.mb-5 De forma nativa en After Effects podemos encontrar dos herramientas o sistemas que enlace que nos facilitan de forma práctica, rápida e intuitiva el enlace, parentazgo o rigging de personajes 2D. También existen extensiones de terceros al programa, unos libres y otros de pago en caso de requerir herramientas más complejas y de altos estándares competitivos en el mercado. Sin embargo, siempre lo más importante es la habilidad del animador para usarlas, sin importar si son pagas o nativas. Estas son:
+    p.mb-5(data-aos="fade") De forma nativa en After Effects podemos encontrar dos herramientas o sistemas que enlace que nos facilitan de forma práctica, rápida e intuitiva el enlace, parentazgo o #[em rigging] de personajes 2D. También existen extensiones de terceros al programa, unos libres y otros de pago en caso de requerir herramientas más complejas y de altos estándares competitivos en el mercado. Sin embargo, siempre lo más importante es la habilidad del animador para usarlas, sin importar si son pagas o nativas. Estas son:
 
     #MapaGroup01.row.mb-5(data-aos="fade")
       .row.justify-content-center
@@ -105,20 +105,20 @@
             
             .row.justify-content-center(titulo="<em>Null object</em> (objeto nulo)")
               .col-lg-11
-                p.mb-4 Este elemento que se ubica como una capa en la composición es literalmente un controlador, con el cual, emparentando por medio del whip podemos controlar, principalmente los parámetros de transformación de otras capas.
+                p.mb-4 Este elemento que se ubica como una capa en la composición es literalmente un controlador, con el cual, emparentando por medio del #[em whip] podemos controlar, principalmente los parámetros de transformación de otras capas.
                 figure
                   img(src='@/assets/curso/tema1/10.svg', alt='Null object (objeto nulo)')
       
       .multi-collapse2.row.justify-content-center.collapse(data-bs-parent='#MapaGroup01')
         .col-md-8 
-          p.text-center Las herramientas externas o extensiones (plugins) son programas de otras casas desarrolladoras de software distintas a Adobe y se detallan a continuación:
+          p.text-center Las herramientas externas o extensiones (#[em plugins]) son programas de otras casas desarrolladoras de #[em software] distintas a Adobe y se detallan a continuación:
         .col-md-10
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row.justify-content-center(titulo="<em>Duik Bassel</em>")
               .col-lg-11
-                p.mb-4 Es un plug-in gratis (se recomienda donaciones) que permite a los animadores manipular a sus personajes de forma práctica y rápida. Se ha convertido en el estándar líder en la industria de manipulación y animación de personajes.
+                p.mb-4 Es un #[em plug-in] gratis (se recomienda donaciones) que permite a los animadores manipular a sus personajes de forma práctica y rápida. Se ha convertido en el estándar líder en la industria de manipulación y animación de personajes.
                 .bg-white.p-4.mb-4
-                  p.mb-0 Algunas características que posee esta extensión son parámetros de instalación automática, controladores basados en iconos y enlaces para rigging que le permiten automatizar el comportamiento de sus “hijos”. Existe una biblioteca de tutoriales y documentos de soporte para utilizarlo de forma correcta.
+                  p.mb-0 Algunas características que posee esta extensión son parámetros de instalación automática, controladores basados en iconos y enlaces para #[em rigging] que le permiten automatizar el comportamiento de sus “hijos”. Existe una biblioteca de tutoriales y documentos de soporte para utilizarlo de forma correcta.
                 .position-relative
                   .indicador--hover(v-if="indicadorTarjetaFlip2")
                   a(href='https://rainboxlab.org/tools/duik/' target="_blank" @mouseover="indicadorTarjetaFlip2 = false")
@@ -134,14 +134,14 @@
             
             .row.justify-content-center(titulo="<em>Joystick’n Sliders</em>")
               .col-lg-11
-                p.mb-4 Es una herramienta paga (USD$39) muy interesante para After Effects que se enorgullece de ser una herramienta de montaje “basada en poses”. Si bien ciertamente puedes manipular rápidamente a un personaje usando Joysticks’n Sliders en After Effects, hemos encontrado que Joysticks’n Sliders son más útiles en casos de uso que no son de personajes. Por ejemplo, puede usar la herramienta para todo, desde gráficos de aparejos hasta demostraciones de Interfaz de usuario.
+                p.mb-4 Es una herramienta paga (USD$39) muy interesante para After Effects que se enorgullece de ser una herramienta de montaje “basada en poses”. Si bien ciertamente puedes manipular rápidamente a un personaje usando #[em Joysticks’n Sliders] en After Effects, hemos encontrado que #[em Joysticks’n Sliders] son más útiles en casos de uso que no son de personajes. Por ejemplo, puede usar la herramienta para todo, desde gráficos de aparejos hasta demostraciones de Interfaz de usuario.
                 a(href='https://aescripts.com/joysticks-n-sliders/' target="_blank")
                   figure
                     img(src='@/assets/curso/tema1/13.png', alt='Joystick’n Sliders')
             
             .row.justify-content-center(titulo="<em>PuppetTools 3</em>")
               .col-lg-11
-                p.mb-4 Es otra herramienta de manipulación de personajes disponible en aescripts + aeplugins. Lo que quiere decir que funciona mayormente con código.  Incluye valiosas herramientas de manipulación de personajes como la cinemática inversa y los controladores.
+                p.mb-4 Es otra herramienta de manipulación de personajes disponible en #[em aescripts + aeplugins]. Lo que quiere decir que funciona mayormente con código.  Incluye valiosas herramientas de manipulación de personajes como la cinemática inversa y los controladores.
                 a(href='https://aescripts.com/puppettools/' target="_blank")
                   figure
                     img(src='@/assets/curso/tema1/14.png', alt='Joystick’n Sliders')

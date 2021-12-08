@@ -1,7 +1,40 @@
-.BG10
+@media only screen and (max-width: 1199px)
+  .banner-principal .tarjeta
+    background-size: auto
+    background-position: 0
+    background-repeat: no-repeat
+  
+.banner-principal__img
+  background-image: url("../assets/curso/secuancia_banner/01-min.png"), url("../assets/curso/secuancia_banner/00-min.png")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat
+  background-position: 50% center, 50% 50%
+  background-size: 85%, 90%
+  animation: Flitp 2s ease infinite  
+  img
+    display: none !important
+
+@keyframes Flitp
+  16.66%
+    background-image: url("../assets/curso/secuancia_banner/01-min.png"), url("../assets/curso/secuancia_banner/00-min.png")
+  33.33%
+    background-image: url("../assets/curso/secuancia_banner/02-min.png"), url("../assets/curso/secuancia_banner/00-min.png")
+  50%
+    background-image: url("../assets/curso/secuancia_banner/03-min.png"), url("../assets/curso/secuancia_banner/00-min.png")
+    background-position: 45% center, 50% 40%
+  66.6%
+    background-image: url("../assets/curso/secuancia_banner/04-min.png"), url("../assets/curso/secuancia_banner/00-min.png")
+  83.19%
+    background-image: url("../assets/curso/secuancia_banner/05-min.png"), url("../assets/curso/secuancia_banner/00-min.png")    
+
+@media screen and (min-width: 1200px)
+  .banner-principal__img
+    background-size: 60%, 65%;  
+  
+.BG10, .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: lighten($color-primario, 30%) !important
-.BG20
-  background-color: lighten($color-secundario, 31%) !important
+.BG20, .bloque-texto-c.color-secundario
+  background-color: lighten($color-secundario, 45%) !important
 .BG30
   background-color: lighten($color-acento-contenido, 31%) !important
 .BG40
@@ -18,6 +51,9 @@
 
 .BG01
   background-color: $color-sistema-h
+
+.BG02, .cajon.color-primario
+  background-color: #F8E2E2
 
 .BRcard
   border-radius: 20px
@@ -54,6 +90,10 @@
 .LnrGrad02
   background: rgb(248,226,226)
   background: linear-gradient(90deg, rgba(248,226,226,1) 0%, rgba(255,255,255,1) 100%)
+
+.LnrGrad03
+  background: lighten($color-acento-botones, 50%)
+  background: linear-gradient(0deg, white 0%, #F1E2CF 100%)
 
 .tabs-a__tab
   background-color: lighten($color-acento-botones, 35%)
@@ -152,3 +192,19 @@
 
 .TxtClr01
   color: $color-primario
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 0 !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  border: none !important
+  color: $color-acento-botones !important
+
+.tarjeta--gris
+  background-color: #FEE9CC
+
+.titulo-principal__numero
+  background-color: #EDC596
+
+.titulo-principal__numero span
+  color: $white
