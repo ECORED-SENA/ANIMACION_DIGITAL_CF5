@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Antes del rigging',
+            titulo: 'Antes del <i>rigging</i>',
             hash: 't1_1',
           },
           {
@@ -44,7 +44,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Práctica de rigging y animación',
+        titulo: 'Práctica de <i>rigging</i> y animación',
         desarrolloContenidos: true,
       },
       {
