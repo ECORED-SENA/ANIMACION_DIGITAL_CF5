@@ -10,7 +10,7 @@
 
     .row.justify-content-center
       .col-md-10
-        p(data-aos="fade") El proceso de un buen rigging lleva tiempo y cuanto más tiempo se pase organizando y enlazando los elementos del sistema, más tiempo se habrá ganado a la hora de animar. Como resultado, muchas herramientas de animación de personajes cuentan con opciones de enlace automáticas que agilizan este proceso de enlace. Algunas de las herramientas requieren que configure el personaje y presione un solo botón para activar automáticamente un complejo proceso de manipulación. 
+        p(data-aos="fade") El proceso de un buen #[em rigging] lleva tiempo y cuanto más tiempo se pase organizando y enlazando los elementos del sistema, más tiempo se habrá ganado a la hora de animar. Como resultado, muchas herramientas de animación de personajes cuentan con opciones de enlace automáticas que agilizan este proceso de enlace. Algunas de las herramientas requieren que configure el personaje y presione un solo botón para activar automáticamente un complejo proceso de manipulación. 
       
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-right")
           .bloque-texto-g__img(
@@ -34,6 +34,7 @@
       .tarjeta.LnrGrad02.p-4(titulo="Generar deformaciones limpias")
         .row.align-items-center
           .col-lg-6
+            h4 Generar deformaciones limpias
             p Este es probablemente uno de los aspectos más importantes para tener un excelente rig de personaje. Este se refiere a que el sistema necesita deformarse apropiadamente y creíble en cada una de las áreas de manipulación. Por ejemplo, si un personaje se inclina, el estómago y pecho se deben deformar de manera elástica y natural.
           .col-lg-6
             figure
@@ -42,6 +43,7 @@
       .tarjeta.LnrGrad02.p-4(titulo="Controles claros de <em>rig</em>")
         .row.align-items-center
           .col-lg-6
+            h4 Controles claros de <em>rig</em>
             p Para que un animador mueva las articulaciones individuales de un personaje, necesitará tener acceso a los controles para que el proceso de selección sea mucho más fácil. La ubicación de estos controles debe quedar clara en la plataforma, el animador debería poder decir exactamente qué parte del cuerpo influenciará determinado control sin tener que seleccionarla primero.
           .col-lg-6
             figure
@@ -50,6 +52,7 @@
       .tarjeta.LnrGrad02.p-4(titulo="Correcto despiece de personaje")
         .row.align-items-center
           .col-lg-6
+            h4 Correcto despiece de personaje
             p Es de suma importancia tener una imagen correctamente despiezada para no incurrir en tensiones de controles erróneas sobre partes del cuerpo que no deban ser afectadas. Para ello, es indispensable que cada articulación esté independiente en su propia capa o, en caso de estar en una misma capa, que no esté cerca o cruzándose con otra. Un buen ejemplo es la posición del hombre de Vitruvio de Da Vinci.
           .col-lg-6
             figure
@@ -61,7 +64,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/HiUBKLnxnCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
 
