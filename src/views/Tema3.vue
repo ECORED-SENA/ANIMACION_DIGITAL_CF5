@@ -25,7 +25,7 @@
     .BG02.p-4.mb-5(data-aos="fade-down")
       p.mb-0 Nuevamente la idea “menos es más” (principio #[em Kiss]) cobra relevancia al momento de trabajar en la construcción de las posiciones de los labios, dado que la mayoría de las expresiones faciales y visemas complejos se forman a partir de la unión de otros más básicos. Por ejemplo, es posible formar el visema de la letra “o” uniendo los de boca abierta y labios contraídos.
     
-    p.mb-4(data-aos="fade-left") El rigger debe crear las posiciones de las bocas teniendo en cuenta que son las posiciones finales que se van a utilizar para generar el #[em lip sync] a la hora de animar.
+    p.mb-4(data-aos="fade-left") El #[em rigger] debe crear las posiciones de las bocas teniendo en cuenta que son las posiciones finales que se van a utilizar para generar el #[em lip sync] a la hora de animar.
 
     p.mb-5(data-aos="fade-left") A continuación, se podrán ver los fonemas y su correspondiente forma con la boca, estas son posiciones globales que se usan en todos los proyectos animados, con ligeras variaciones entre unas y otras, pero conservando siempre la misma estructura:
 
