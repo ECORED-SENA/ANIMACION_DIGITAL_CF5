@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Rigging**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/ANIMACION_DIGITAL_CF5/](https://ecored-sena.github.io/ANIMACION_DIGITAL_CF5/)
 
 #
 
