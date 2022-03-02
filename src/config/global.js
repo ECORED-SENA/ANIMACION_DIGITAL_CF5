@@ -184,7 +184,7 @@ export default {
   complementario: [
     {
       texto:
-        'Cortés, J. (2020, 14 de octubre). ¿Qué es la animación? Tipos y técnicas. Notodoanimacion',
+        'Cortés, J. (2020). ¿Qué es la animación? Tipos y técnicas. Notodoanimacion',
       tipo: 'Página web',
       link: 'https://bit.ly/3gGd7Wh',
     },
@@ -210,6 +210,28 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Mauricio Sánchez Rengifo',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -261,7 +283,7 @@ export default {
       },
       {
         nombre: 'Diego Fernando Velasco Güiza',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -291,6 +313,11 @@ export default {
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Giovanni Machado Cerquera',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

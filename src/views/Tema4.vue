@@ -69,7 +69,7 @@
                 figure
                   img(src='@/assets/curso/tema4/06.png', alt='')
           
-          div(numero="5" titulo="<em>Attack</em>")
+          div(numero="5" titulo="Atacar")
             p.text-small Una de las animaciones más usadas, es como el personaje ataca, lanza un golpe o usa una espada. Estos son movimientos que, por lo general, son movimientos rápidos: puede mover las piernas para crear estabilidad en el movimiento y verse natural; es importante siempre llegar al mismo punto de partida.
 
             .row.align-items-end
@@ -80,7 +80,7 @@
                 figure
                   img(src='@/assets/curso/tema4/05.png', alt='')
           
-          div(numero="5" titulo="Muerte")
+          div(numero="6" titulo="Muerte")
             p.text-small La muerte del personaje puede pasar porque pisó algún elemento que lo mataba de inmediato o por que le fueron quitando la sangre poco a poco. Aquí se puede mostrar cómo el personaje cae al piso, después de que pierde su vida. Es importante tener como eje principal los pies del personaje, para que, al momento de pasar la animación al motor de juego este caiga correctamente y no se deslice.
 
             .row.align-items-end
